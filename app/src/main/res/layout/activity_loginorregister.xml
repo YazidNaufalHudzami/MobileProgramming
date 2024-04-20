@@ -35,6 +35,7 @@
         android:id="@+id/loginBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="toLogin"
         android:background="@drawable/rectangle_481"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,13 +48,14 @@
         android:id="@+id/registerBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="toRegister"
         android:background="@drawable/rectangle_480"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.429"
-        app:srcCompat="@drawable/register" />
+        app:srcCompat="@drawable/register__3_" />
 
     <ImageView
         android:id="@+id/vector12"
@@ -87,7 +89,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.555"
+        app:layout_constraintVertical_bias="0.575"
         app:srcCompat="@drawable/kebaikan_alam_kebaikan_hidup" />
 
     <ImageView
@@ -104,14 +106,14 @@
 
     <ImageView
         android:id="@+id/vector15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="240dp"
+        android:layout_height="200dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="1.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="1.08"
         app:srcCompat="@drawable/vector_15" />
 
     <ImageView
@@ -145,7 +147,7 @@
         android:alpha="0.6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
@@ -153,14 +155,14 @@
 
     <ImageView
         android:id="@+id/fotobotol"
-        android:layout_width="286dp"
+        android:layout_width="260dp"
         android:layout_height="395dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintHorizontal_bias="0.59"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.13"
+        app:layout_constraintVertical_bias="1.19"
         app:srcCompat="@drawable/foto_botol" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

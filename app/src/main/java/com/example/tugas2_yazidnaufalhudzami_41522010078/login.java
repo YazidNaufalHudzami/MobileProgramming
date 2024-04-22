@@ -2,6 +2,7 @@ package com.example.tugas2_yazidnaufalhudzami_41522010078;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.view.View;
 
 import androidx.activity.EdgeToEdge;
@@ -15,6 +16,10 @@ public class login extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // Add this:
+        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder(StrictMode.getVmPolicy())
+                .detectLeakedClosableObjects()
+                .build());
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_login);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
@@ -22,16 +27,17 @@ public class login extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
     }
-    public void tologinorregister(View view) {
-        Intent loginorregister = new
+    public void gerontologist(View view) {
+        Intent endocrinologist = new
                 Intent(login.this, loginorregister.class);
-        startActivity(loginorregister);
+        startActivity(endocrinologist);
     }
 
-    public void toBeranda(View view) {
-        Intent beranda = new
-                Intent(login.this, beranda.class);
-        startActivity(beranda);
+    public void toVeranda(View view) {
+        Intent veranda = new
+                Intent(login.this, veranda.class);
+        startActivity(veranda);
     }
 }

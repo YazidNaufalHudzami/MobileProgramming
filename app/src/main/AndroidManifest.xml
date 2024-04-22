@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Tugas2_YazidNaufalHudzami_41522010078"
         tools:targetApi="31">
         <activity
-            android:name=".beranda"
+            android:name=".veranda"
             android:exported="false"
             android:label="@string/title_activity_beranda"
             android:theme="@style/Theme.Tugas2_YazidNaufalHudzami_41522010078.NoActionBar" />

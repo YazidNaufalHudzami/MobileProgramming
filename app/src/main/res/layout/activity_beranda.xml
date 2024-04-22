@@ -602,6 +602,17 @@
                     app:layout_constraintVertical_bias="0"
                     app:srcCompat="@drawable/vector_20_20"/>
 
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     app:layout_constraintTop_toTopOf="@id/bottomberanda"
+                     app:layout_constraintStart_toStartOf="@id/bottomberanda"
+                     app:layout_constraintEnd_toEndOf="@id/bottomberanda"
+                     app:layout_constraintBottom_toBottomOf="@id/bottomberanda"
+                     app:srcCompat="@drawable/hadiah_menarik"
+                     app:layout_constraintHorizontal_bias="0.1"
+                     app:layout_constraintVertical_bias="0.08"/>
+
                 <ImageView
                     android:id="@+id/Vector_21"
                     android:layout_width="match_parent"

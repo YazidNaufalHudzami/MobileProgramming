@@ -37,7 +37,7 @@ public class login extends AppCompatActivity {
 
     public void toVeranda(View view) {
         Intent veranda = new
-                Intent(login.this, veranda.class);
+                Intent(login.this, drawer.class);
         startActivity(veranda);
     }
 }

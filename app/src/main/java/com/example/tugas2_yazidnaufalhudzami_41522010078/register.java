@@ -36,7 +36,7 @@ public class register extends AppCompatActivity {
     }
     public void toVeranda(View view) {
         Intent veranda = new
-                Intent(register.this, veranda.class);
+                Intent(register.this, drawer.class);
         startActivity(veranda);
     }
 }
